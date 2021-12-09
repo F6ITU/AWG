@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Pi_Pico)(type Legacy)(uri ${KIPRJMOD}/Library/Pi_Pico/Pi_Pico.lib)(options "")(descr ""))
+  (lib (name AD8055ARZ)(type Legacy)(uri ${KIPRJMOD}/Library/AD8055ARZ/AD8055ARZ.lib)(options "")(descr ""))
+)

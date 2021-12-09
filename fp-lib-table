@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Pi_Pico)(type KiCad)(uri ${KIPRJMOD}/Module/Pi_Pico.pretty)(options "")(descr ""))
+)
