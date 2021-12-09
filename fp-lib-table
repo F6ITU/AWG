@@ -1,3 +1,5 @@
 (fp_lib_table
+  (lib (name AD8055ARZ)(type KiCad)(uri ${KIPRJMOD}/Module/AD8055ARZ.pretty)(options "")(descr ""))
   (lib (name Pi_Pico)(type KiCad)(uri ${KIPRJMOD}/Module/Pi_Pico.pretty)(options "")(descr ""))
+  (lib (name SMA_PINS)(type KiCad)(uri ${KIPRJMOD}/Module/SMA_PINS.pretty)(options "")(descr ""))
 )
