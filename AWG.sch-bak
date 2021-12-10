@@ -30,7 +30,7 @@ U 1 1 61B0E84C
 P 8850 4600
 F 0 "RV1" H 8781 4646 50  0000 R CNN
 F 1 "100R" V 8850 4700 50  0000 R CNN
-F 2 "" H 8850 4600 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-V10_Vertical_Hole" H 8850 4600 50  0001 C CNN
 F 3 "~" H 8850 4600 50  0001 C CNN
 	1    8850 4600
 	1    0    0    -1  
@@ -1286,45 +1286,12 @@ F 3 "" H 9700 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LM7805_TO220 U1003
-U 1 1 61CB420E
-P 2800 850
-F 0 "U1003" H 2800 1092 50  0000 C CNN
-F 1 "LM7805" H 2800 1001 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2800 1075 50  0001 C CIN
-F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 2800 800 50  0001 C CNN
-	1    2800 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LM7812_TO220 U1001
-U 1 1 61CB675E
-P 1700 850
-F 0 "U1001" H 1700 1092 50  0000 C CNN
-F 1 "LM7812" H 1700 1001 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 1700 1075 50  0001 C CIN
-F 3 "https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF" H 1700 800 50  0001 C CNN
-	1    1700 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:LM7905_TO220 U1004
-U 1 1 61CB78CA
-P 2800 2050
-F 0 "U1004" H 2800 1901 50  0000 C CNN
-F 1 "LM7905" H 2800 1810 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2800 1850 50  0001 C CIN
-F 3 "https://www.onsemi.com/pub/Collateral/MC7900-D.PDF" H 2800 2050 50  0001 C CNN
-	1    2800 2050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Regulator_Linear:L7912 U1002
 U 1 1 61CB8B51
 P 1700 2050
 F 0 "U1002" H 1700 1901 50  0000 C CNN
 F 1 "L7912" H 1700 1810 50  0000 C CNN
-F 2 "" H 1700 1850 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 1700 1850 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 1700 2050 50  0001 C CNN
 	1    1700 2050
 	1    0    0    -1  
@@ -2272,5 +2239,40 @@ F 2 "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown" H 9450 5100 50  0001 C CNN
 F 3 "~" H 9250 5000 50  0001 C CNN
 	1    9250 5000
 	1    0    0    1   
+$EndComp
+Text Notes 4450 1000 0    50   ~ 0
+L7812CD2T-TR\nL7805ACD2T-TR\nL7905ACD2T-TR\nL7912CD2T-TR\n\nD²PAK (TO-263)\n
+$Comp
+L Regulator_Linear:L7905 U1004
+U 1 1 61D75CEB
+P 2800 2050
+F 0 "U1004" H 2800 1901 50  0000 C CNN
+F 1 "L7905" H 2800 1810 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-263-2" H 2800 1850 50  0001 C CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 2800 2050 50  0001 C CNN
+	1    2800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7812 U1001
+U 1 1 61D77468
+P 1700 850
+F 0 "U1001" H 1700 1092 50  0000 C CNN
+F 1 "L7812" H 1700 1001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 1725 700 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1700 800 50  0001 C CNN
+	1    1700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:L7805 U1003
+U 1 1 61D78CC9
+P 2800 850
+F 0 "U1003" H 2800 1092 50  0000 C CNN
+F 1 "L7805" H 2800 1001 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2825 700 50  0001 L CIN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 2800 800 50  0001 C CNN
+	1    2800 850 
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
