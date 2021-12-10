@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\marco\Documents\KiCad\Projets\AWG\AWG.sch)
-    (date "10/12/2021 15:06:35")
+    (date "10/12/2021 16:53:14")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref U1)
       (value Pico)
-      (footprint RPi_Pico:RPi_Pico_SMD_TH)
+      (footprint Pi_Pico:RPi_Pico_SMD_TH)
       (libsource (lib Pi_Pico) (part Pico) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 61B0BE2A))
@@ -363,7 +363,7 @@
       (tstamp 61B64487))
     (comp (ref U1002)
       (value L7912)
-      (footprint Package_TO_SOT_SMD:TO-263-2)
+      (footprint Package_TO_SOT_SMD:TO-252-2)
       (datasheet http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf)
       (libsource (lib Regulator_Linear) (part L7912) (description "Negative 1.5A 35V Linear Regulator, Fixed Output -12V, TO-220/TO-263"))
       (sheetpath (names /) (tstamps /))
@@ -566,7 +566,7 @@
       (tstamp 61CFC7DE))
     (comp (ref U1004)
       (value L7905)
-      (footprint Package_TO_SOT_SMD:TO-263-2)
+      (footprint Package_TO_SOT_SMD:TO-252-2)
       (datasheet http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf)
       (libsource (lib Regulator_Linear) (part L7905) (description "Negative 1.5A 35V Linear Regulator, Fixed Output -5V, TO-220/TO-263"))
       (sheetpath (names /) (tstamps /))

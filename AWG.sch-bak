@@ -19,7 +19,7 @@ U 1 1 61B0BE2A
 P 3700 4600
 F 0 "U1" H 3700 5723 50  0000 C CNN
 F 1 "Pico" H 3700 5814 50  0000 C CNN
-F 2 "RPi_Pico:RPi_Pico_SMD_TH" V 3700 4600 50  0001 C CNN
+F 2 "Pi_Pico:RPi_Pico_SMD_TH" V 3700 4600 50  0001 C CNN
 F 3 "" H 3700 4600 50  0001 C CNN
 	1    3700 4600
 	-1   0    0    1   
@@ -1291,7 +1291,7 @@ U 1 1 61CB8B51
 P 1700 2050
 F 0 "U1002" H 1700 1901 50  0000 C CNN
 F 1 "L7912" H 1700 1810 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 1700 1850 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 1700 1850 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 1700 2050 50  0001 C CNN
 	1    1700 2050
 	1    0    0    -1  
@@ -2248,7 +2248,7 @@ U 1 1 61D75CEB
 P 2800 2050
 F 0 "U1004" H 2800 1901 50  0000 C CNN
 F 1 "L7905" H 2800 1810 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:TO-263-2" H 2800 1850 50  0001 C CIN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 2800 1850 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/c9/16/86/41/c7/2b/45/f2/CD00000450.pdf/files/CD00000450.pdf/jcr:content/translations/en.CD00000450.pdf" H 2800 2050 50  0001 C CNN
 	1    2800 2050
 	1    0    0    -1  
