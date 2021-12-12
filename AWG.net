@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\marco\Documents\KiCad\Projets\AWG\AWG.sch)
-    (date "12/12/2021 10:26:41")
+    (date "12/12/2021 13:19:14")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -228,7 +228,7 @@
       (tstamp 61C979E4))
     (comp (ref C6)
       (value 1mF)
-      (footprint Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm)
+      (footprint Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder)
       (datasheet ~)
       (libsource (lib Device) (part C_Small) (description "Unpolarized capacitor, small symbol"))
       (sheetpath (names /) (tstamps /))
